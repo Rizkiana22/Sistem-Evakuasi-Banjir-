@@ -1,4 +1,4 @@
-# Simulasi Evakuasi Modular (Pygame + A* Pathfinding + Flood BFS)
+# Simulasi Evakuasi Banjir (Pygame + A* Pathfinding + Flood BFS)
 
 Proyek ini adalah simulasi evakuasi pada grid 2D dengan kondisi lingkungan yang berubah secara dinamis akibat banjir. Agen akan mencari rute teraman menuju **goal** menggunakan algoritma **A\*** sambil banjir menyebar menggunakan **BFS flood fill**. Visualisasi berjalan menggunakan **Pygame**.
 
