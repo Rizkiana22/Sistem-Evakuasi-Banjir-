@@ -144,7 +144,9 @@ def draw_ui():
         "[T]        : Random Map",
     ]
     for t in texts:
-        col = ((0, 255, 0) if "RUNNING" in t and running_sim else config.COLOR_TEXT)
+        is_running = ("RUNNING" in t) and running_sim
+        col = (0, 255, 0) if is_running else config.COLOR_TEXT
+
         label = font.render(t, True, col)
         screen.blit(label, (info_x, y))
         y += 25
