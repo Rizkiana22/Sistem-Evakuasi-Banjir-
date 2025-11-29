@@ -74,4 +74,5 @@ python main.py
 ```
 
 ## Dokumentasi
+![Evacuation Route](https://github.com/user-attachments/assets/139eb73a-bb1f-4995-b27d-49458a92c4c5)
 
